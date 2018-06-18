@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript Number Array</title>
+	</head>
+	<body>
+		<h1>JavaScript Number Array</h1>
+		<script>
+			var numberArray=[1,2,3,5,7,11];
+			numberArray.push(13);
+			numberArray.push(17);
+			numberArray.push(19);
+			numberArray.push(23);
+			console.log(numberArray);
+			numberArray.pop();
+			numberArray.pop();
+			numberArray.pop();
+			numberArray.pop();
+			console.log(numberArray);
+			console.log( numberArray.slice(1,4));
+			for(var itrArray of numberArray)
+			{
+				console.log(itrArray);
+			}
+		</script>
+	</body>
+</html>
